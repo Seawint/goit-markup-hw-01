@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>WebStudio</title>
+  </head>
+  <body>
+    <header>
+      <a href="index.html" class="logo"><span class="first">Web</span>Studio</a>
+      <nav>
+        <a href="index.html" rel="noopener noreferrer" class="studiya"
+          >Студия</a
+        >
+        <a href="#" rel="noopener noreferrer" class="portfolio">Портфолио</a>
+        <a href="#" rel="noopener noreferrer" class="kontaktu">Контакты</a>
+      </nav>
+      <address>
+        <a href="mailto:info@devstudio.com" class="mail">info@devstudio.com</a>
+        <a href="tel:+380961111111" class="telephone">+38 096 111 11 11</a>
+      </address>
+    </header>
+    <main>
+      <section class="sfirst">
+        <h1>Эффективные решения для вашего бизнеса</h1>
+        <button type="button" name="order">
+          <a href="#">Заказать услугу</a>
+        </button>
+      </section>
+      <section class="ssecond">
+        <ul>
+          <li>
+            <h2>Внимание к деталям</h2>
+            <p>
+              Идейные соображения, а также начало повседневной работы по
+              формированию позиции.
+            </p>
+          </li>
+          <li class="space">
+            <h2>Пунктуальность</h2>
+            <p>
+              Задача организации, в особенности же рамки и место обучения кадров
+              влечет за собой.
+            </p>
+          </li>
+          <li class="space">
+            <h2>Планирование</h2>
+            <p>
+              Равным образом консультация с широким активом в значительной
+              степени обуславливает.
+            </p>
+          </li>
+          <li class="space">
+            <h2>Современные технологии</h2>
+            <p>
+              Значимость этих проблем настолько очевидна, что реализация
+              плановых заданий.
+            </p>
+          </li>
+        </ul>
+      </section>
+      <section class="sthird">
+        <h3>Чем мы занимаемся</h3>
+        <ul>
+          <li><img src="./images/11.jpg" alt="Планирование" /></li>
+          <li><img src="./images/12.jpg" alt="Внимание к деталям" /></li>
+          <li><img src="./images/13.jpg" alt="Современные технологии" /></li>
+        </ul>
+      </section>
+      <section class="sfourth">
+        <h3>Наша команда</h3>
+        <ul>
+          <li>
+            <img src="./images/1.jpg" alt="Игорь Демьяненко" />
+            <h4>Игорь Демьяненко</h4>
+            <p>Product Designer</p>
+          </li>
+          <li>
+            <img src="./images/3.jpg" alt="Ольга Репина" />
+            <h4>Ольга Репина</h4>
+            <p>Frontend Developer</p>
+          </li>
+          <li>
+            <img src="./images/4.jpg" alt="Николай Тарасов" />
+            <h4>Николай Тарасов</h4>
+            <p>Marketing</p>
+          </li>
+          <li>
+            <img src="./images/2.jpg" alt="Михаил Ермаков" />
+            <h4>Михаил Ермаков</h4>
+            <p>UI Designer</p>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <ul>
+        <li>
+          <a href="index.html" rel="noopener noreferrer" class="logotip">
+            <span>Web</span>Studio
+          </a>
+        </li>
+        <li class="googleadress">
+          <a
+            href="https://goo.gl/maps/5rpUihqNsXVn4FrE6"
+            target="_blank"
+            rel="noopener noreferrer"
+            >г. Киев, пр-т Леси Украинки, 26</a
+          >
+        </li>
+        <li class="fadress">
+          <a
+            href="mailto:info@example.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            >info@example.com</a
+          >
+        </li>
+        <li class="fadress">
+          <a href="tel:+380991111111" target="_blank" rel="noopener noreferrer"
+            >+38 099 111 11 11</a
+          >
+        </li>
+      </ul>
+    </footer>
+    <style type="text/css">
+      a {
+        text-decoration: none;
+      }
+      body {
+        width: 1600px;
+        position: relative;
+        margin: 0 auto;
+      }
+      header {
+        width: 1600px;
+        height: 80px;
+        position: relative;
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        background: #ffffff;
+      }
+      a.logo {
+        position: absolute;
+        width: 145px;
+        height: 31px;
+        left: 215px;
+        top: 24px;
+
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        /* identical to box height */
+        letter-spacing: 0.03em;
+        color: black;
+      }
+      span.first {
+        color: #2196f3;
+      }
+      nav {
+        position: absolute;
+        width: 294px;
+        height: 16px;
+        left: 453px;
+        top: 32px;
+      }
+      nav a {
+        color: black;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+      }
+      nav a.studiya {
+        color: #2196f3;
+      }
+      nav a.portfolio {
+        margin-left: 50px;
+      }
+      nav a.kontaktu {
+        margin-left: 50px;
+      }
+      address a.mail {
+        position: absolute;
+        width: 135px;
+        height: 16px;
+        left: 1078px;
+        top: 32px;
+      }
+      address a.telephone {
+        position: absolute;
+        width: 122px;
+        height: 16px;
+        left: 1263px;
+        top: 32px;
+        color: black;
+      }
+      main section.sfirst {
+        position: absolute;
+        width: 1600px;
+        height: 600px;
+        left: 0px;
+        top: 80px;
+        background: #2f303a;
+      }
+      main section.sfirst h1 {
+        position: absolute;
+        width: 696px;
+        height: 120px;
+        left: 452px;
+        top: 200px;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 60px;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: #ffffff;
+      }
+      main section.sfirst button {
+        position: absolute;
+        width: 200px;
+        height: 50px;
+        left: 700px;
+        top: 400px;
+        background: #2196f3;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+      }
+      main section.sfirst button:hover {
+        background-color: cornflowerblue;
+        cursor: pointer;
+      }
+      main section.sfirst button a {
+        font-size: 17px;
+        color: #ffffff;
+        top: 12px;
+        left: 35px;
+        position: absolute;
+      }
+      main section.ssecond {
+        position: absolute;
+        border: 2px black;
+        left: 0;
+        top: 650px;
+        width: 1600px;
+        height: 340px;
+      }
+      main section.ssecond ul {
+        margin: 120px 0 0 165px;
+      }
+      main section.ssecond ul li {
+        display: inline-block;
+        width: 260px;
+      }
+      main section.ssecond ul li h2 {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #212121;
+      }
+      main section.ssecond ul li p {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: #757575;
+      }
+      main section.ssecond ul li.space {
+        margin-left: 40px;
+      }
+      main section.sthird {
+        position: absolute;
+        width: 1170px;
+        height: 386px;
+        left: 215px;
+        top: 969px;
+      }
+      main section.sthird h3 {
+        position: absolute;
+        width: 400px;
+        left: 370px;
+        top: -25px;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;
+      }
+      main section.sthird ul {
+        margin: 100px 0 0 -50px;
+        width: 1170px;
+      }
+      main section.sthird ul li {
+        display: inline-block;
+        text-decoration: none;
+      }
+      main section.sthird ul li img {
+        width: 370px;
+        height: 294px;
+        margin-right: 10px;
+      }
+      main section.sfourth {
+        position: absolute;
+        width: 1600px;
+        height: 648px;
+        left: 0px;
+        top: 1449px;
+        background: #f5f4fa;
+      }
+      main section.sfourth h3 {
+        position: absolute;
+        width: 264px;
+        height: 42px;
+        top: 70px;
+        left: 650px;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        letter-spacing: 0.03em;
+        color: #212121;
+      }
+      main section.sfourth ul {
+        width: 1170px;
+        margin: 200px 0 0 150px;
+        padding-top: 20px;
+      }
+      main section.sfourth ul li {
+        display: inline-block;
+        text-decoration: none;
+        text-align: center;
+        height: 290px;
+        background: #ffff;
+        width: 270px;
+        margin-right: 15px;
+      }
+      main section.sfourth ul li img {
+        width: 270px;
+        height: 190px;
+      }
+      main section.sfourth ul li p {
+        margin-top: -10px;
+      }
+      footer {
+        position: absolute;
+        width: 1600px;
+        height: 252px;
+        left: 0px;
+        top: 2097px;
+        background: #2f303a;
+      }
+      footer ul {
+        display: block;
+        width: 300px;
+        position: absolute;
+        margin: 70px 0 0 150px;
+      }
+      footer ul li {
+        list-style-type: none;
+      }
+      footer ul li a span {
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        letter-spacing: 0.03em;
+        color: #2196f3;
+      }
+      footer ul li a.logotip {
+        color: #ffffff;
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        margin-bottom: 30px;
+        display: block;
+      }
+      footer ul li.googleadress a {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: #ffffff;
+      }
+      footer ul li.fadress a {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+      }
+    </style>
+  </body>
+</html>
